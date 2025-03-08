@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Q3-Project 1</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap" rel="stylesheet">
+
+	<link href="https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&family=Charm:wght@400;700&family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Delius&family=Ephesis&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lexend:wght@100..900&family=Lobster&family=Lora:ital,wght@0,400..700;1,400..700&family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rouge+Script&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Charm:wght@400;700&family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Delius&family=Ephesis&family=Lexend:wght@100..900&family=Lobster&family=Lora:ital,wght@0,400..700;1,400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rouge+Script&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+	<!-- Navbar: Enriquez -->
+	<nav class="navbar navbar-expand-sm He cen col-sm-12">
+		<div class="container-fluid">
+		    <a class="navbar-brand col-sm-3" href=""><img src="https://i.ibb.co/TDPv3Wg9/logo.png" alt="logo"  class="logo d-inline-block align-top nega"></a>
+		    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+		    	<span class="navbar-toggler-icon"></span>
+		    </button>
+
+		    <div class="collapse navbar-collapse col-sm-6" id="collapsibleNavbar">
+		    	 <ul class="nav nav-tabs mx-auto" role="tablist">
+		       		<li class="nav-item ">
+	   							<a class="nav-link" href="index.html" style="background-color: #83838D; color:#EBEBEB !important;">Home</a>
+	      			</li>
+	      			<li class="nav-item ">
+	   							<a class="nav-link" href="ticketing.html" >Tickets</a>
+	      			</li>
+		       		<li class="nav-item ">
+		         			 <a class="nav-link" href="schedule.html" >Transit Schedule</a>
+		        	</li>  
+		       		<li class="nav-item ">
+		          		<a class="nav-link" href="Contact.html">Contact Us</a>
+		       	 	</li>
+		       	 	<li class="nav-item ">
+		          		<a class="nav-link" href="help.html">Help</a>
+		       	 	</li>
+		      	</ul>
+		    </div>
+
+		    <div class="wrapper sc col-sm-3" >
+					<form action="/search" method="get">
+			    	<input type="search" class="search" placeholder=" ⌕" name="query">
+			      <button type="submit" class="btn subtn">Search</button>
+			    </form>
+	  		</div>
+	  	</div>
+	</nav>
+	<!-- Ticketing: Enriquez -->
+	<div class="hero" id="hero">
+			<br>
+		<div class="container">
+			<img src="https://img.bomboradyo.com/newscenter/2023/08/image-518.png" class="heroimg">
+		</div>
+	</div>
+	<div class="filler">
+	<br><br><br><br>
+	</div>
+	<div class="row">
+		<div class="explana col-sm-8">
+			<br>
+			<h1 style="color: #38394D;"> Welcome to the LRT-1 station </h1><hr>
+			<p class="just"> At LRT-1, we provide a fast, reliable, and affordable way to travel across Metro Manila. Our line runs from Baclaran in Pasay City to Fernando Poe Jr. (Roosevelt) in Quezon City, connecting key business districts, shopping centers, universities, and residential areas. With 20 stations, we make daily commutes easier and more accessible for thousands of passengers.
+			<br><br>
+			Our stations are strategically located to serve major destinations like EDSA, Gil Puyat, Central Terminal, Monumento, and Balintawak. Whether you're heading to work, school, or a leisure trip, LRT-1 helps you get there faster and more conveniently. We also offer various ticketing options, including stored-value Beep cards, for a smoother and more efficient journey.
+			<br><br> 
+			We are committed to improving public transportation, with ongoing upgrades and expansions to serve you better. Travel with us and experience a seamless commute across Metro Manila! </p>
+			<br>
+			<b> Plan your trip with us today! </b> </p>
+		</div>
+		<div class="col-sm-4 full align-items-stretch newsur">
+			<br>
+			<h1 class="cen fil"> <i style="color: #38394D;"> Recent News! </i> </h1>
+			<hr /><br>
+			<div class="left">
+				<a href="https://www.lrta.gov.ph/lrta-launches-new-occupational-safety-health-manual-to-enhance-workplace-safety/" class="cemi" target="_blank"> <b> LRTA launches New Occupational Safety & Health Manual to Enhance Workplace Safety </b> </a> 
+				<br><br>
+				<a href="https://www.lrta.gov.ph/lrta-achieves-certificate-of-compliance-for-foi-program/" class="cemi" target="_blank"> <b> LRTA Achieves Certificate of Compliance for FOI Program</b> </a> 
+				<br><br>
+				<a href="https://www.msn.com/en-ph/news/other/bayan-muna-urges-gov-t-to-suspend-lrt-1-fare-hike/ar-AA1zzp2j" class="cemi" target="_blank"> <b> Bayan Muna urges gov’t to suspend LRT-1 fare hike</b> </a> 
+				<br><br>
+				<a href="https://www.msn.com/en-ph/news/other/dizon-open-to-extending-mrt-lrt-operating-hours/ar-AA1zJL3W" class="cemi" target="_blank"> <b> Dizon open to extending MRT, LRT operating hours</b> </a> 
+				<br><br>
+				<a href="https://www.lrta.gov.ph/csc-awards-cna-certificate-of-registration-to-lrta-employees-association/" class="cemi" target="_blank"> <b> CSC Awards CNA Certificate of Registration to LRTA Employees’ Association</b> </a> 
+				<br><br><br><br><br><br><br><br>
+			</div>	
+	</div>	
+	<!-- Footer: Enriquez and Zosa -->
+	<div class="footer">
+		<p>2025 | <a href="https://github.com/AEnriquez-9-Topaz"> Alejandro Enriquez </a> & 
+				  <a href="https://github.com/IZosa-9T"> Ivy Zosa</a> | 9-Topaz</p>
+	</div> 
+	<script src="main.js"></script>
+</body>
+</html>
